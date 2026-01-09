@@ -1,40 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angel Carvajal - Cybersecurity Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <header>
-        <h1>Angel Carvajal</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+<h1>Angel Carvajal</h1>
+<p class="tagline">Aspiring SOC Analyst | Math & Environmental Studies @ UCSB</p>
+<nav>
+<ul>
+<li><a href="#about">About Me</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <h3>Hello I'm Angel</h3>
-        <p>I'm a student at the University of California, Santa Barbara studying Math and Environmental Studies. </p>
-        <p>I'm facinated by security. I love encryption, reverse engineering, </p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-    </section>
+<section id="about">
+<h2>About Me</h2>
+<div class="intro">
+<h3>Hello, I'm Angel</h3>
+<p>I'm a junior at UC Santa Barbara double-majoring in Mathematics and Environmental Studies, with a passion for cybersecurity. As a first-generation Mexican American student, I've worked my way from five years in the restaurant industry to pursuing my dream of becoming a SOC analyst.</p>
+</div>
 
-    <section id="contact">
-        <h2>Contact</h2>
-    </section>
+<div class="journey">
+<h3>My Journey to Cybersecurity</h3>
+<p>After earning my Associate's in Mathematics from El Camino College, I discovered cybersecurity—and after a few attempts, it finally clicked. What draws me in is the constant evolution: there's always something new to learn, always a new threat to understand and defend against.</p>
+<p>My interest became personal when my family was targeted by online scams. Seeing people I love fall victim to threats that can happen to anyone showed me how critical this work is. I want to be on the side fighting for good, protecting people from becoming the next victim.</p>
+</div>
 
+<div class="focus">
+<h3>What I'm Working On</h3>
+<p>I'm actively building my cybersecurity foundation through:</p>
+<ul>
+<li>TryHackMe's SOC Level 1 learning path</li>
+<li>Building hands-on VM labs with Wazuh SIEM</li>
+<li>Pursuing Security+ certification</li>
+<li>Developing security tools in Python</li>
+<li>Studying malware analysis, penetration testing techniques, and SIEM operations</li>
+</ul>
+</div>
 
-    <script src="js/main.js"></script>
+<div class="perspective">
+<h3>A Different Perspective</h3>
+<p>My Environmental Studies background shapes how I approach security. Both fields require understanding complex systems, identifying vulnerabilities, and protecting communities that are often the most exposed to harm. Whether it's environmental justice or cybersecurity, I'm driven by work that has real impact on people's lives.</p>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="project-card">
+<h3>StegoPix</h3>
+<p>A steganography tool that encrypts and decrypts hidden messages into PNG images. Built with Python to demonstrate data hiding techniques and cryptographic concepts.</p>
+<a href="https://github.com/angel-carv/stego" target="_blank">View on GitHub</a>
+</div>
+
+<div class="project-card">
+<h3>Wazuh SIEM Lab</h3>
+<p>Built a comprehensive security monitoring environment using VirtualBox with multiple
+ VMs (Wazuh server, windows employee, kali linux malicious actor). Configured Wazuh for threat detection, log analysis, and security event 
+ correlation.</p>
+</div>
+
+<div class="project-card">
+<h3>TryHackMe Progress</h3>
+<p>Actively working through SOC Level 1 path, gaining hands-on experience with malware analysis (CAPA), Metasploit, Kali Linux, and various penetration testing techniques.</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2>
+<div class="skills-grid">
+<div class="skill-category">
+<h3>Security Tools</h3>
+<ul>
+<li>Wazuh SIEM</li>
+<li>Metasploit</li>
+<li>Kali Linux</li>
+<li>CAPA (Malware Analysis)</li>
+<li>Wireshark</li>
+</ul>
+</div>
+<div class="skill-category">
+<h3>Programming</h3>
+<ul>
+<li>Python</li>
+<li>Linux/Bash</li>
+<li>C++</li>
+<li>Pygame</li>
+</ul>
+</div>
+<div class="skill-category">
+<h3>Currently Learning</h3>
+<ul>
+<li>Security+ Certification</li>
+<li>SOC Operations</li>
+<li>Threat Detection</li>
+<li>Incident Response</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>I'm always eager to connect with cybersecurity professionals and fellow learners.</p>
+<ul class="contact-links">
+<li><strong>Email:</strong> angelcarvajal323@gmail.com</li>
+<li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/angel-carvajal-a257971ba/" target="_blank">Connect with me</a></li>
+<li><strong>GitHub:</strong> <a href="https://github.com/angel-carv" target="_blank">angel-carv</a></li>
+<li><strong>Languages:</strong> English, Spanish</li>
+</ul>
+</section>
+
+<footer>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
